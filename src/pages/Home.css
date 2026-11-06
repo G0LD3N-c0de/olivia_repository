@@ -1,0 +1,12 @@
+.home {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
