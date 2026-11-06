@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom"
 import "./Footer.css"
 
 function Footer() {
     return (
         <div className="footer">
             <nav className="footer__nav-bar">
-                <a>About</a>
-                <a>Contact</a>
-                <a>Portolio</a>
+                <Link to={"/about"}>About</Link>
+                <p>Contact</p>
+                <Link to={"/portfolio"}>Portfolio</Link>
             </nav>
             <nav className="footer__socials">
                 <a>Instagram</a>
