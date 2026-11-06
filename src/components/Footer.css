@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px 10px 20px;
+}
+
+.footer__nav-bar {
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer__socials {
+    display: flex;
+    column-gap: 10px;
+}
