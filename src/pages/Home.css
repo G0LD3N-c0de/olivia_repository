@@ -1,12 +1,22 @@
 .home {
-    margin: 20px;
+    margin: 50px 20px 50px 20px;
+}
+
+.home__section-1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .home__info {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+}
+
+.home__picture {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
 }
