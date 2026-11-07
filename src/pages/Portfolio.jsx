@@ -1,6 +1,8 @@
+import "./Portfolio.css"
+
 function Portfolio() {
     return (
-        <div>Portfolio</div>
+        <div className="portfolio">In progress...</div>
     )
 }
 
