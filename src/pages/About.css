@@ -1,0 +1,9 @@
+.about {
+    margin: 20px;
+}
+
+.about__section-1-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
